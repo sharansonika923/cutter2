@@ -1,0 +1,6 @@
+{
+  "project_name": "Hello World",
+  "folder_name": "xyz",
+  "base_app_name": "{{ cookiecutter.project_name|lower|replace(' ', '_')|replace('-', '_') }}",
+  "repo_name": "{{ cookiecutter.base_app_name|replace('_', '-') }}"
+}
