@@ -1,5 +1,5 @@
 {
-  "name": "cookiecutter",
+  "name": "{{cookiecutter.project_name|lower|replace(' ', '_')|replace('-', '_')}}",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
